@@ -25,7 +25,7 @@ function App() {
           <div className="movie-card" key={movie.id}>
             <img 
               src={`${movie.image}`}
-              alt={movie.movie} 
+              alt={`${movie.movie} (Not Displayed Due To Relative Image Path in API)  `}
               className="movie-poster" 
             />
             <h3>{movie.movie}</h3>
